@@ -1,0 +1,19 @@
+.container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.wrapper{
+    width: 80%;
+    margin: 0 auto;
+    background-color: aqua;
+}
+.accordian-content{
+    display: none;
+}
+.accordian-title.active + .accordian-content{
+    display: block;
+}

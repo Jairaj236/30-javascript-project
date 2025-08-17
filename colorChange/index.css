@@ -1,0 +1,27 @@
+.main-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    
+}
+.rgb-color{
+    width: 50%;
+  background-color: aqua;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+   flex-direction: column;
+  gap: 20px;
+}
+.hexa-color{
+    width: 50%;
+  background-color: blue;
+ display: flex;
+  align-items: center;
+  justify-content: center;
+   flex-direction: column;
+  gap: 20px;
+}
+.hex-color-value{
+    color: white;
+}
